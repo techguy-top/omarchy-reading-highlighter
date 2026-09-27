@@ -3,6 +3,8 @@
 Follow text with a translucent marker trail while you read. Move the mouse
 normally: no clicking or dragging is needed.
 
+![Reading Highlighter controls with an on/off switch and orange, green, and red color options](preview.png)
+
 - Orange, green, or red ink.
 - Roughly one-inch tail; each segment fades over three seconds.
 - Click the marker in the bar to open the color picker and on/off switch.
