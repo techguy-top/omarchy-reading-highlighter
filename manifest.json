@@ -2,10 +2,19 @@
   "schemaVersion": 1,
   "id": "diky.reading-highlighter",
   "name": "Reading Highlighter",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "author": "diky",
-  "description": "A click-through reading trail with orange, green, and red colors",
-  "kinds": ["bar-widget"],
-  "entryPoints": {"barWidget": "Panel.qml"},
-  "barWidget": {"displayName": "Reading Highlighter", "category": "Accessibility", "allowMultiple": false, "defaultSection": "right"}
+  "description": "A fading reading trail plus local traced-word OCR to a notes file",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Reading Highlighter",
+    "category": "Accessibility",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
 }
