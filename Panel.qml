@@ -94,7 +94,7 @@ Ui.Panel {
           }
         }
         PlainText { width: parent.width; text: strings.t("fileHelp"); opacity: 0.7; font.pixelSize: 12 }
-        PlainText { width: parent.width; text: strings.t("actualDestination").arg(TrailState.destination); font.pixelSize: 12; wrapMode: Text.WrapAnywhere }
+        PlainText { width: parent.width; text: strings.t("actualDestination", "Currently saving to:\n%1").arg(TrailState.destination); font.pixelSize: 12; wrapMode: Text.WrapAnywhere }
         Dropdown {
           id: appField
           width: parent.width

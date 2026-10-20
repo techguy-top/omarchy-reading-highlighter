@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "diky.reading-highlighter",
   "name": "Reading Highlighter",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": "diky",
   "description": "A fading reading trail plus local traced-word OCR to a notes file",
   "kinds": [

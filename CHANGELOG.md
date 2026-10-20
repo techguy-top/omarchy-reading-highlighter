@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.1 — 2026-10-19
+
+- Pass the English "Currently saving to" text as a fallback so the panel no
+  longer logs `QString::arg: Argument missing` at shell startup, before the
+  translation catalog has loaded.
+
 ## 2.1.0 — 2026-10-16
 
 - Add local traced-word OCR, appending captures with timestamps to a Markdown or
